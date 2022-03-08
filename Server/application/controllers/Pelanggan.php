@@ -36,6 +36,35 @@ class Pelanggan extends Server {
 
 	// public "delete (hapus data)"
 	public function service_delete() {
+		// panggil file model (MPelanggan)
+		$this->load->model("mpelanggan","mdl",TRUE);
+		// buat /ambil parameter untuk hapus data
+		$id =$this->delete("id_plg");
+		// panggil fungsi "set delete"
+		$hasil = $this->mdl->set_delete($id);
+		// jika hasil = "1"
+		if($hasil == "1") {
+			$this->response(array("status" => "1", "Pesan" => "Data Berhasil dihapus !"),200);
+			
+		}
+		// jika hasil != "1"
+		else {
+			$this->response(array("status" => "0", "Pesan" => "Data Gagal dihapus !"),200);
+
+		}
+
+
+		// hapus data berdasarkan parameter "id"
+		// $this->db->where("id",$id);
+		// $hapus = $this->db->delete("tb_pelanggan");
+		// // jika proses penghapusan
+		// if ($hapus) {
+		// 	$this->response(array("status" => "1", "Pesan" => "Data Berhasil dihapus !"),200);
+		// }
+		// // jika proses penghapusan gagal
+		// else {
+		// 	$this->response(array("status" => "0", "Pesan" => "Data Gagal dihapus !"),200);
+		// }
 		
 	}
 

@@ -23,11 +23,10 @@ class Barang extends Server {
 			$id = $data->id;
 			$kode = $data->kode;
 			$nama = $data->nama;
-			$alamat = $data->alamat;
-			$telepon = $data->telepon;
-			$email = $data->email;
-			$username = $data->username;
-			$password = $data->password;
+			$harga = $data->$harga;
+			$satuan = $data->$satuan;
+			$stok = $data->$stok;
+			$foto = $data->$foto;
 
 			echo $kode;
 		}

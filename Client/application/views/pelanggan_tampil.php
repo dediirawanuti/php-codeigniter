@@ -83,14 +83,30 @@
 
 
         <!-- looping data -->
+        <?php
+            foreach($pelanggan as $dt) {
+        ?>
         <tr>
             <td class="tengah">1</td>
-            <td>1</td>
-            <td>1</td>
-            <td class="tengah">1</td>
-            <td>1</td>
-            <td class="tengah">1</td>
+            <td>
+                <?php echo $dt->nama; ?>
+            </td>
+            <td>
+                <?php echo $dt->alamat; ?>
+            </td>
+            <td class="tengah">
+                <?php echo $dt->telepon; ?>
+            </td>
+            <td>
+                <?php echo $dt->email; ?>
+            </td>
+            <td class="tengah">
+                <?php echo $dt->username; ?>
+            </td>
         </tr>
+        <?php
+            }
+        ?>
 
 
     </table>

@@ -48,10 +48,10 @@ class MPelanggan extends CI_Model {
             $this->db->select("id");
             $this->db->from("tb_pelanggan");
             $this->db->order_by("id","DESC");
-            $this->db->limit(1);
+            $this->db->limit("1");
 
             // Ambil data id+1
-            $hasil = $this->db->get()->row()->id+1;
+            $id = $this->db->get()->row()->id+1;
 
             // Buat data otomatis
             date_default_timezone_set("Asia/Jakarta");

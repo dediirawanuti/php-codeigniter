@@ -27,4 +27,8 @@ class Pelanggan extends CI_Controller {
 
 		$this->load->view('pelanggan_tampil', $data);
 	}
+
+	function tambah() {
+		echo "ini halaman tambah pelanggan";
+	}
 }

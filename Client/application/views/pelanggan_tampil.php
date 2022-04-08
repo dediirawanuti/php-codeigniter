@@ -118,7 +118,7 @@
                     <button class="btn_ubah">
                         Ubah
                     </button>
-                    <button class="btn_hapus" onclick="hapus('<?php echo $dt->nama; ?>', '<?php echo $dt->id; ?>')">
+                    <button class="btn_hapus" onclick="hapus('<?php echo $dt->nama; ?>', '<?php echo md5($dt->id); ?>')">
                         Hapus
                     </button>
                 </section>
@@ -161,7 +161,10 @@
         // fungsi hapus
         function hapus(nama, id) {
             if(confirm("Data "+nama+" Ingin Dihapus ?") == true) {
-                alert("Hapus Data");
+                // alert("Hapus Data");
+                // alihkan ke halaman "Pelanggan" fungsi "hapus"
+                location.href="<?php echo site_url("pelanggan/hapus"); ?>"+"/"+id;
+
             }
             // else {
             //     alert("Batal")

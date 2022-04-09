@@ -9,6 +9,7 @@ MERGED from [android.arch.navigation:navigation-ui:1.0.0] /home/dedi-irawan/.gra
 MERGED from [com.android.support:design:28.0.0] /home/dedi-irawan/.gradle/caches/transforms-3/3e9a1071c637d411fee5edf159fc56b9/transformed/design-28.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.support.constraint:constraint-layout:2.0.4] /home/dedi-irawan/.gradle/caches/transforms-3/ced5b45a24f6cc545db9672d5c9828df/transformed/constraint-layout-2.0.4/AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.support:appcompat-v7:28.0.0] /home/dedi-irawan/.gradle/caches/transforms-3/0b1495e829d7e1446b1acdb33ea789f8/transformed/appcompat-v7-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:28.0.0] /home/dedi-irawan/.gradle/caches/transforms-3/505797e4814d21f2dc18b818b7309840/transformed/support-v4-28.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.navigation:navigation-fragment:1.0.0] /home/dedi-irawan/.gradle/caches/transforms-3/ff246f3abced3a424f5d5f37ea3ff481/transformed/navigation-fragment-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-fragment:28.0.0] /home/dedi-irawan/.gradle/caches/transforms-3/9584b4d598315b794af35173214e76a9/transformed/support-fragment-28.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/dedi-irawan/.gradle/caches/transforms-3/98bbf8ff4e91b7527310ba2c1f70e17a/transformed/animated-vector-drawable-28.0.0/AndroidManifest.xml:17:1-22:12
@@ -21,6 +22,7 @@ MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/dedi-irawan/.gradle/ca
 MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/dedi-irawan/.gradle/caches/transforms-3/e17334d6ee2a96bc6e34504380789756/transformed/viewmodel-1.1.1/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/dedi-irawan/.gradle/caches/transforms-3/4db909d2c81ed91b6d00c145df11d834/transformed/support-vector-drawable-28.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:transition:28.0.0] /home/dedi-irawan/.gradle/caches/transforms-3/5a671b1d960db92f845966c74b28fdfe/transformed/transition-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:28.0.0] /home/dedi-irawan/.gradle/caches/transforms-3/ecfe40b5b64b269434758ba80a7d9da3/transformed/support-media-compat-28.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:viewpager:28.0.0] /home/dedi-irawan/.gradle/caches/transforms-3/fd210300523ee75d410c983bfd43664d/transformed/viewpager-28.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/dedi-irawan/.gradle/caches/transforms-3/8f2c9aba696705a6e7daac88cb9c697c/transformed/coordinatorlayout-28.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:drawerlayout:28.0.0] /home/dedi-irawan/.gradle/caches/transforms-3/88d120cee404d93e2c55303ac1fbf37b/transformed/drawerlayout-28.0.0/AndroidManifest.xml:17:1-22:12
@@ -115,6 +117,8 @@ MERGED from [com.android.support.constraint:constraint-layout:2.0.4] /home/dedi-
 MERGED from [com.android.support.constraint:constraint-layout:2.0.4] /home/dedi-irawan/.gradle/caches/transforms-3/ced5b45a24f6cc545db9672d5c9828df/transformed/constraint-layout-2.0.4/AndroidManifest.xml:5:5-7:41
 MERGED from [com.android.support:appcompat-v7:28.0.0] /home/dedi-irawan/.gradle/caches/transforms-3/0b1495e829d7e1446b1acdb33ea789f8/transformed/appcompat-v7-28.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:appcompat-v7:28.0.0] /home/dedi-irawan/.gradle/caches/transforms-3/0b1495e829d7e1446b1acdb33ea789f8/transformed/appcompat-v7-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] /home/dedi-irawan/.gradle/caches/transforms-3/505797e4814d21f2dc18b818b7309840/transformed/support-v4-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] /home/dedi-irawan/.gradle/caches/transforms-3/505797e4814d21f2dc18b818b7309840/transformed/support-v4-28.0.0/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.navigation:navigation-fragment:1.0.0] /home/dedi-irawan/.gradle/caches/transforms-3/ff246f3abced3a424f5d5f37ea3ff481/transformed/navigation-fragment-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.navigation:navigation-fragment:1.0.0] /home/dedi-irawan/.gradle/caches/transforms-3/ff246f3abced3a424f5d5f37ea3ff481/transformed/navigation-fragment-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-fragment:28.0.0] /home/dedi-irawan/.gradle/caches/transforms-3/9584b4d598315b794af35173214e76a9/transformed/support-fragment-28.0.0/AndroidManifest.xml:20:5-44
@@ -139,6 +143,8 @@ MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/dedi-iraw
 MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/dedi-irawan/.gradle/caches/transforms-3/4db909d2c81ed91b6d00c145df11d834/transformed/support-vector-drawable-28.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:transition:28.0.0] /home/dedi-irawan/.gradle/caches/transforms-3/5a671b1d960db92f845966c74b28fdfe/transformed/transition-28.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:transition:28.0.0] /home/dedi-irawan/.gradle/caches/transforms-3/5a671b1d960db92f845966c74b28fdfe/transformed/transition-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /home/dedi-irawan/.gradle/caches/transforms-3/ecfe40b5b64b269434758ba80a7d9da3/transformed/support-media-compat-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /home/dedi-irawan/.gradle/caches/transforms-3/ecfe40b5b64b269434758ba80a7d9da3/transformed/support-media-compat-28.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:viewpager:28.0.0] /home/dedi-irawan/.gradle/caches/transforms-3/fd210300523ee75d410c983bfd43664d/transformed/viewpager-28.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:viewpager:28.0.0] /home/dedi-irawan/.gradle/caches/transforms-3/fd210300523ee75d410c983bfd43664d/transformed/viewpager-28.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/dedi-irawan/.gradle/caches/transforms-3/8f2c9aba696705a6e7daac88cb9c697c/transformed/coordinatorlayout-28.0.0/AndroidManifest.xml:20:5-44

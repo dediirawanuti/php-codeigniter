@@ -22,4 +22,16 @@
         android:name="com.uti.pumkm.ui.keranjang.KeranjangFragment"
         android:label="@string/menu_keranjang"
         tools:layout="@layout/fragment_keranjang" />
+
+    <fragment
+        android:id="@+id/nav_penjualan"
+        android:name="com.uti.pumkm.ui.penjualan.PenjualanFragment"
+        android:label="@string/menu_penjualan"
+        tools:layout="@layout/fragment_penjualan" />
+
+    <fragment
+        android:id="@+id/nav_profil"
+        android:name="com.uti.pumkm.ui.profil.ProfileFragment"
+        android:label="@string/menu_profil"
+        tools:layout="@layout/fragment_profile" />
 </navigation>

@@ -35,16 +35,73 @@ class Barang extends Server {
 
 	// public "delete (hapus data)"
 	public function service_delete() {
+		$this->load->model("mbarang","mdl",TRUE);
+		
+		$id = $this->delete("id_brg");
+
+		$hasil = $this->mdl->get_delete($id);
+
+		if($hasil == "1") {
+			$this->response(array("status" => "1", "Pesan" => "Data Berhasil dihapus !"),200);
+			
+		}
+		// jika hasil != "1"
+		else {
+			$this->response(array("status" => "0", "Pesan" => "Data Gagal dihapus !"),200);
+
+		}
+
 		
 	}
 
 	// public "post (simpan data)"
 	public function service_post() {
+		$this->load->model("mbarang","mdl",TRUE);
+
+		$kode = $this->post("kode_brg");
+		$nama = $this->post("nama_brg");
+		$harga = $this->post("harga_brg");
+		$satuan = $this->post("satuan_brg");
+		$stok = $this->post("stok_brg");
+		$foto = $this->post("foto");
+
+		$hasil = $this->mdl->set_post($kode, $nama, $harga, $satuan, $stok, $foto);
 		
+		if($hasil == "1") {
+			$this->response(array("status" => "1", "Pesan" => "Data Berhasil disimpan !"),200);
+			
+		}
+		// jika hasil != "1"
+		else {
+			$this->response(array("status" => "0", "Pesan" => "Data Gagal disimpan !"),200);
+
+		}
 	}
 
 	// public "put (update data)"
 	public function service_put() {
+		$this->load->model("mbarang","mdl",TRUE);
+
+		$kode = $this->post("kode_brg");
+		$nama = $this->post("nama_brg");
+		$harga = $this->post("harga_brg");
+		$satuan = $this->post("satuan_brg");
+		$stok = $this->post("stok_brg");
+		$foto = $this->post("foto");
+		$id = $this->post("id_brg");
+
+		$hasil = $this->mdl->set_post($kode, $nama, $harga, $satuan, $stok, $foto, $id);
+
+		// jika hasil = "1"
+		if($hasil == "1") {
+			$this->response(array("status" => "1", "Pesan" => "Data Berhasil Diubah !"),200);
+			
+		}
+		// jika hasil != "1"
+		else {
+			$this->response(array("status" => "0", "Pesan" => "Data Gagal Diubah !"),200);
+
+		}
 		
 	}
 

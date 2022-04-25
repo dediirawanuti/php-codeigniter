@@ -61,7 +61,7 @@
             flex-direction: column;
         }
         .btn_ubah {
-            whidth: 96%;
+            width: 96%;
             height: 35px;
             margin: 5px 2%;
             background: #FF0000;
@@ -71,7 +71,7 @@
             cursor : pointer;
         }
         .btn_hapus {
-            whidth: 96%;
+            width: 96%;
             height: 35px;
             margin: 0 2% 5px 2%;
             background: #39AEA9;

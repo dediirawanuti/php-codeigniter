@@ -14,7 +14,7 @@
             justify-content: center;
         }
         .btn_simpan {
-            whidth: 150px;
+            width: 150px;
             height: 40px;
             background: #FF0000;
             color: #FFFFFF;
@@ -24,7 +24,7 @@
             cursor : pointer;
         }
         .btn_batal {
-            whidth: 150px;
+            width: 150px;
             height: 40px;
             background: #FF0000;
             color: #FFFFFF;
@@ -113,7 +113,7 @@
             </section>
             <!-- Label Password -->
             <section class="area_object">
-                <label class="label_object" id="lbl_passowrd">
+                <label class="label_object" id="lbl_password">
                     Password Pelanggan :
                 </label>
                 <input class="input_object" type="password" id="txt_password">
@@ -121,6 +121,52 @@
 
         </section>
 
+        <!-- Ambil CDN jquery -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+        <script>
+            function batal() {
+                // alihkan ke halaman "Pelamggan"
+                location.href="<?php echo site_url("pelanggan")?>";
+
+            }
+
+            function simpan() {
+                // $(".label_object").css("color","#FFCC00");
+                // $(".label_object").css("font-size","24px");
+                // $("#lbl_nama").html("Isi nama pelanggan");
+                // $("#txt_nama").val("Ini Isininya pelanggan");
+
+                // $("#lbl_nama").css("color","#FF0000");
+                // $("#txt_nama").css("border","1px solid #FF0000");
+
+                // jika "txt_nama" tidak diisi
+                if ($("#txt_nama").val() == "") {
+                    
+                    $("#lbl_nama").css("color","#FF0000");
+                    $("#txt_nama").css("border","1px solid #FF0000");
+                    
+                    // isi variable "act_nama" = 0
+                    act_nama = 0;
+                }
+                // jika "txt_nama" diisi
+                else {
+
+                    // hapus semua "class" yang digunakan
+                    // $("lbl_nama").removeClass();
+                    // $("txt_nama").removeClass();
+
+                    // set ke "default" class yang dipakai
+                    // $("lbl_nama").addClass("label_object");
+                    // $("txt_nama").addClass("input_object");
+
+                    $("#lbl_nama").css("color","#333333");
+                    $("#txt_nama").css("border","1px solid #333333");
+                    // isi variable "act_nama" = 1
+                    act_nama = 1;
+                }
+            }
+        </script>
     
 </body>
 </html>

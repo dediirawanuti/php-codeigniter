@@ -54,6 +54,32 @@
         .tengah {
             text-align: center;
         }
+        .area_aksi {
+            display: flex;
+            width: 100%;
+            justify-content: center;
+            flex-direction: column;
+        }
+        .btn_ubah {
+            whidth: 96%;
+            height: 35px;
+            margin: 5px 2%;
+            background: #FF0000;
+            color: #FFFFFF;
+            border-radius: 5px;
+            border : 1px solid #FF0000;
+            cursor : pointer;
+        }
+        .btn_hapus {
+            whidth: 96%;
+            height: 35px;
+            margin: 0 2% 5px 2%;
+            background: #39AEA9;
+            color: #FFFFFF;
+            border-radius: 5px;
+            border : 1px solid #FFFFFF;
+            cursor : pointer;
+        }
     </style>
 </head>
 <body>
@@ -61,11 +87,11 @@
     <!-- area tombol -->
     <nav class="area_tombol">
         <!-- tombol tambah -->
-        <button class="btn_tambah">
+        <button class="btn_tambah" onclick="tambah()">
             Tambah
         </button>
         <!-- tombol batal -->
-        <button class="btn_batal">
+        <button class="btn_batal" onclick="batal()">
             Batal
         </button>
     </nav>
@@ -87,7 +113,16 @@
             foreach($pelanggan as $dt) {
         ?>
         <tr>
-            <td class="tengah">1</td>
+            <td class="tengah">
+                <section class="area_aksi">
+                    <button class="btn_ubah">
+                        Ubah
+                    </button>
+                    <button class="btn_hapus" onclick="hapus('<?php echo $dt->nama; ?>', '<?php echo md5($dt->id); ?>')">
+                        Hapus
+                    </button>
+                </section>
+            </td>
             <td>
                 <?php echo $dt->nama; ?>
             </td>
@@ -108,8 +143,35 @@
             }
         ?>
 
-
     </table>
+
+    <!-- fungsi java script -->
+    <script>
+        // fungsi batal
+        function batal() {
+            // alihkan ke halaman ini
+            location.href="<?php echo site_url("pelanggan"); ?>"
+        }
+
+        // fungsi tambah
+        function tambah() {
+            // alihkan ke halaman ini
+            location.href="<?php echo site_url("pelanggan/tambah"); ?>"
+        }
+        // fungsi hapus
+        function hapus(nama, id) {
+            if(confirm("Data "+nama+" Ingin Dihapus ?") == true) {
+                // alert("Hapus Data");
+                // alihkan ke halaman "Pelanggan" fungsi "hapus"
+                location.href="<?php echo site_url("pelanggan/hapus"); ?>"+"/"+id;
+
+            }
+            // else {
+            //     alert("Batal")
+            // }
+        }
+
+    </script>
 
 </body>
 </html>

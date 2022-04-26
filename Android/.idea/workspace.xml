@@ -128,6 +128,8 @@
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
+<<<<<<< HEAD
+=======
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
@@ -137,6 +139,7 @@
         </entry>
       </map>
     </option>
+>>>>>>> android
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

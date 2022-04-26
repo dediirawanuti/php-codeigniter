@@ -4,20 +4,12 @@
         "source": "/opt/lampp/htdocs/php-codeigniter/Android/app/src/main/res/layout/nav_header_main.xml"
     },
     {
-        "merged": "/opt/lampp/htdocs/php-codeigniter/Android/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_gallery.xml",
-        "source": "/opt/lampp/htdocs/php-codeigniter/Android/app/src/main/res/layout/fragment_gallery.xml"
-    },
-    {
-        "merged": "/opt/lampp/htdocs/php-codeigniter/Android/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_home.xml",
-        "source": "/opt/lampp/htdocs/php-codeigniter/Android/app/src/main/res/layout/fragment_home.xml"
+        "merged": "/opt/lampp/htdocs/php-codeigniter/Android/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_dashboard.xml",
+        "source": "/opt/lampp/htdocs/php-codeigniter/Android/app/src/main/res/layout/fragment_dashboard.xml"
     },
     {
         "merged": "/opt/lampp/htdocs/php-codeigniter/Android/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_slideshow.xml",
         "source": "/opt/lampp/htdocs/php-codeigniter/Android/app/src/main/res/layout/fragment_slideshow.xml"
-    },
-    {
-        "merged": "/opt/lampp/htdocs/php-codeigniter/Android/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_main.xml",
-        "source": "/opt/lampp/htdocs/php-codeigniter/Android/app/src/main/res/layout/activity_main.xml"
     },
     {
         "merged": "/opt/lampp/htdocs/php-codeigniter/Android/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/app_bar_main.xml",
@@ -26,5 +18,33 @@
     {
         "merged": "/opt/lampp/htdocs/php-codeigniter/Android/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/content_main.xml",
         "source": "/opt/lampp/htdocs/php-codeigniter/Android/app/src/main/res/layout/content_main.xml"
+    },
+    {
+        "merged": "/opt/lampp/htdocs/php-codeigniter/Android/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_gallery.xml",
+        "source": "/opt/lampp/htdocs/php-codeigniter/Android/app/src/main/res/layout/fragment_gallery.xml"
+    },
+    {
+        "merged": "/opt/lampp/htdocs/php-codeigniter/Android/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_home.xml",
+        "source": "/opt/lampp/htdocs/php-codeigniter/Android/app/src/main/res/layout/fragment_home.xml"
+    },
+    {
+        "merged": "/opt/lampp/htdocs/php-codeigniter/Android/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_barang.xml",
+        "source": "/opt/lampp/htdocs/php-codeigniter/Android/app/src/main/res/layout/fragment_barang.xml"
+    },
+    {
+        "merged": "/opt/lampp/htdocs/php-codeigniter/Android/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_main.xml",
+        "source": "/opt/lampp/htdocs/php-codeigniter/Android/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/opt/lampp/htdocs/php-codeigniter/Android/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_penjualan.xml",
+        "source": "/opt/lampp/htdocs/php-codeigniter/Android/app/src/main/res/layout/fragment_penjualan.xml"
+    },
+    {
+        "merged": "/opt/lampp/htdocs/php-codeigniter/Android/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_keranjang.xml",
+        "source": "/opt/lampp/htdocs/php-codeigniter/Android/app/src/main/res/layout/fragment_keranjang.xml"
+    },
+    {
+        "merged": "/opt/lampp/htdocs/php-codeigniter/Android/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_profile.xml",
+        "source": "/opt/lampp/htdocs/php-codeigniter/Android/app/src/main/res/layout/fragment_profile.xml"
     }
 ]

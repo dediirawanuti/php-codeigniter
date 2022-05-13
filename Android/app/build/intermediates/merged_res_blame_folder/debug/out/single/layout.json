@@ -16,6 +16,10 @@
         "source": "/opt/lampp/htdocs/php-codeigniter/Android/app/src/main/res/layout/app_bar_main.xml"
     },
     {
+        "merged": "/opt/lampp/htdocs/php-codeigniter/Android/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/content_barang.xml",
+        "source": "/opt/lampp/htdocs/php-codeigniter/Android/app/src/main/res/layout/content_barang.xml"
+    },
+    {
         "merged": "/opt/lampp/htdocs/php-codeigniter/Android/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/content_main.xml",
         "source": "/opt/lampp/htdocs/php-codeigniter/Android/app/src/main/res/layout/content_main.xml"
     },

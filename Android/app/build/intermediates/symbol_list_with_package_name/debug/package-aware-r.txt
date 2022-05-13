@@ -1179,6 +1179,7 @@ drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable ic_penjualan
 drawable ic_profil
+drawable ic_tambah
 drawable mtrl_snackbar_background
 drawable mtrl_tabs_default_indicator
 drawable navigation_empty_icon
@@ -1329,6 +1330,7 @@ id ignore
 id ignoreRequest
 id image
 id imageView
+id imageView2
 id info
 id invisible
 id italic
@@ -1478,6 +1480,8 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id txt_kode
+id txt_nama
 id uniform
 id unlabeled
 id up
@@ -1536,6 +1540,7 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_main
 layout app_bar_main
+layout content_barang
 layout content_main
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog

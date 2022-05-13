@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /opt/lampp/htdocs/php-codeigniter/Android/app/src/main/AndroidManifest.xml:2:1-25:12
-INJECTED from /opt/lampp/htdocs/php-codeigniter/Android/app/src/main/AndroidManifest.xml:2:1-25:12
-INJECTED from /opt/lampp/htdocs/php-codeigniter/Android/app/src/main/AndroidManifest.xml:2:1-25:12
-INJECTED from /opt/lampp/htdocs/php-codeigniter/Android/app/src/main/AndroidManifest.xml:2:1-25:12
+ADDED from /opt/lampp/htdocs/php-codeigniter/Android/app/src/main/AndroidManifest.xml:2:1-28:12
+INJECTED from /opt/lampp/htdocs/php-codeigniter/Android/app/src/main/AndroidManifest.xml:2:1-28:12
+INJECTED from /opt/lampp/htdocs/php-codeigniter/Android/app/src/main/AndroidManifest.xml:2:1-28:12
+INJECTED from /opt/lampp/htdocs/php-codeigniter/Android/app/src/main/AndroidManifest.xml:2:1-28:12
 MERGED from [com.android.databinding:viewbinding:7.1.1] /home/dedi-irawan/.gradle/caches/transforms-3/8e21e0575e920794b07d9d95c4939451/transformed/viewbinding-7.1.1/AndroidManifest.xml:17:1-24:12
 MERGED from [android.arch.navigation:navigation-ui:1.0.0] /home/dedi-irawan/.gradle/caches/transforms-3/0c6200da901b4d8359d9e967582d32e6/transformed/navigation-ui-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:design:28.0.0] /home/dedi-irawan/.gradle/caches/transforms-3/3e9a1071c637d411fee5edf159fc56b9/transformed/design-28.0.0/AndroidManifest.xml:17:1-24:12
@@ -42,25 +42,29 @@ MERGED from [com.android.support:documentfile:28.0.0] /home/dedi-irawan/.gradle/
 MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/dedi-irawan/.gradle/caches/transforms-3/ad9475fa2fb52485618e2cf36652c067/transformed/localbroadcastmanager-28.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:print:28.0.0] /home/dedi-irawan/.gradle/caches/transforms-3/03a9870c7cb55336aa671f531b5bdd7f/transformed/print-28.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:interpolator:28.0.0] /home/dedi-irawan/.gradle/caches/transforms-3/bffe487eb5748f9fafbdea93116f76cd/transformed/interpolator-28.0.0/AndroidManifest.xml:17:1-22:12
-INJECTED from /opt/lampp/htdocs/php-codeigniter/Android/app/src/main/AndroidManifest.xml:2:1-25:12
-INJECTED from /opt/lampp/htdocs/php-codeigniter/Android/app/src/main/AndroidManifest.xml:2:1-25:12
-INJECTED from /opt/lampp/htdocs/php-codeigniter/Android/app/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /opt/lampp/htdocs/php-codeigniter/Android/app/src/main/AndroidManifest.xml:2:1-28:12
+INJECTED from /opt/lampp/htdocs/php-codeigniter/Android/app/src/main/AndroidManifest.xml:2:1-28:12
+INJECTED from /opt/lampp/htdocs/php-codeigniter/Android/app/src/main/AndroidManifest.xml:2:1-28:12
 	package
 		ADDED from /opt/lampp/htdocs/php-codeigniter/Android/app/src/main/AndroidManifest.xml:3:5-28
 		INJECTED from /opt/lampp/htdocs/php-codeigniter/Android/app/src/main/AndroidManifest.xml
 		INJECTED from /opt/lampp/htdocs/php-codeigniter/Android/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /opt/lampp/htdocs/php-codeigniter/Android/app/src/main/AndroidManifest.xml
-		ADDED from /opt/lampp/htdocs/php-codeigniter/Android/app/src/main/AndroidManifest.xml:2:1-25:12
+		ADDED from /opt/lampp/htdocs/php-codeigniter/Android/app/src/main/AndroidManifest.xml:2:1-28:12
 		INJECTED from /opt/lampp/htdocs/php-codeigniter/Android/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /opt/lampp/htdocs/php-codeigniter/Android/app/src/main/AndroidManifest.xml
-		ADDED from /opt/lampp/htdocs/php-codeigniter/Android/app/src/main/AndroidManifest.xml:2:1-25:12
+		ADDED from /opt/lampp/htdocs/php-codeigniter/Android/app/src/main/AndroidManifest.xml:2:1-28:12
 		INJECTED from /opt/lampp/htdocs/php-codeigniter/Android/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /opt/lampp/htdocs/php-codeigniter/Android/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /opt/lampp/htdocs/php-codeigniter/Android/app/src/main/AndroidManifest.xml:6:5-66
+	android:name
+		ADDED from /opt/lampp/htdocs/php-codeigniter/Android/app/src/main/AndroidManifest.xml:6:22-64
 application
-ADDED from /opt/lampp/htdocs/php-codeigniter/Android/app/src/main/AndroidManifest.xml:5:5-23:19
+ADDED from /opt/lampp/htdocs/php-codeigniter/Android/app/src/main/AndroidManifest.xml:8:5-26:19
 MERGED from [com.android.support:design:28.0.0] /home/dedi-irawan/.gradle/caches/transforms-3/3e9a1071c637d411fee5edf159fc56b9/transformed/design-28.0.0/AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:design:28.0.0] /home/dedi-irawan/.gradle/caches/transforms-3/3e9a1071c637d411fee5edf159fc56b9/transformed/design-28.0.0/AndroidManifest.xml:22:5-20
 MERGED from [com.android.support.constraint:constraint-layout:2.0.4] /home/dedi-irawan/.gradle/caches/transforms-3/ced5b45a24f6cc545db9672d5c9828df/transformed/constraint-layout-2.0.4/AndroidManifest.xml:9:5-20
@@ -72,37 +76,37 @@ MERGED from [com.android.support:versionedparcelable:28.0.0] /home/dedi-irawan/.
 	android:appComponentFactory
 		ADDED from [com.android.support:support-compat:28.0.0] /home/dedi-irawan/.gradle/caches/transforms-3/01abf3def00b528e5c29d1fd1eb1ef25/transformed/support-compat-28.0.0/AndroidManifest.xml:22:18-91
 	android:supportsRtl
-		ADDED from /opt/lampp/htdocs/php-codeigniter/Android/app/src/main/AndroidManifest.xml:10:9-35
+		ADDED from /opt/lampp/htdocs/php-codeigniter/Android/app/src/main/AndroidManifest.xml:13:9-35
 	android:label
-		ADDED from /opt/lampp/htdocs/php-codeigniter/Android/app/src/main/AndroidManifest.xml:8:9-41
+		ADDED from /opt/lampp/htdocs/php-codeigniter/Android/app/src/main/AndroidManifest.xml:11:9-41
 	android:roundIcon
-		ADDED from /opt/lampp/htdocs/php-codeigniter/Android/app/src/main/AndroidManifest.xml:9:9-54
+		ADDED from /opt/lampp/htdocs/php-codeigniter/Android/app/src/main/AndroidManifest.xml:12:9-54
 	android:icon
-		ADDED from /opt/lampp/htdocs/php-codeigniter/Android/app/src/main/AndroidManifest.xml:7:9-43
+		ADDED from /opt/lampp/htdocs/php-codeigniter/Android/app/src/main/AndroidManifest.xml:10:9-43
 	android:allowBackup
-		ADDED from /opt/lampp/htdocs/php-codeigniter/Android/app/src/main/AndroidManifest.xml:6:9-35
+		ADDED from /opt/lampp/htdocs/php-codeigniter/Android/app/src/main/AndroidManifest.xml:9:9-35
 	android:theme
-		ADDED from /opt/lampp/htdocs/php-codeigniter/Android/app/src/main/AndroidManifest.xml:11:9-43
+		ADDED from /opt/lampp/htdocs/php-codeigniter/Android/app/src/main/AndroidManifest.xml:14:9-43
 activity#com.uti.pumkm.MainActivity
-ADDED from /opt/lampp/htdocs/php-codeigniter/Android/app/src/main/AndroidManifest.xml:12:9-22:20
+ADDED from /opt/lampp/htdocs/php-codeigniter/Android/app/src/main/AndroidManifest.xml:15:9-25:20
 	android:label
-		ADDED from /opt/lampp/htdocs/php-codeigniter/Android/app/src/main/AndroidManifest.xml:15:13-45
+		ADDED from /opt/lampp/htdocs/php-codeigniter/Android/app/src/main/AndroidManifest.xml:18:13-45
 	android:exported
-		ADDED from /opt/lampp/htdocs/php-codeigniter/Android/app/src/main/AndroidManifest.xml:14:13-36
+		ADDED from /opt/lampp/htdocs/php-codeigniter/Android/app/src/main/AndroidManifest.xml:17:13-36
 	android:theme
-		ADDED from /opt/lampp/htdocs/php-codeigniter/Android/app/src/main/AndroidManifest.xml:16:13-59
+		ADDED from /opt/lampp/htdocs/php-codeigniter/Android/app/src/main/AndroidManifest.xml:19:13-59
 	android:name
-		ADDED from /opt/lampp/htdocs/php-codeigniter/Android/app/src/main/AndroidManifest.xml:13:13-41
+		ADDED from /opt/lampp/htdocs/php-codeigniter/Android/app/src/main/AndroidManifest.xml:16:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /opt/lampp/htdocs/php-codeigniter/Android/app/src/main/AndroidManifest.xml:17:13-21:29
+ADDED from /opt/lampp/htdocs/php-codeigniter/Android/app/src/main/AndroidManifest.xml:20:13-24:29
 action#android.intent.action.MAIN
-ADDED from /opt/lampp/htdocs/php-codeigniter/Android/app/src/main/AndroidManifest.xml:18:17-69
+ADDED from /opt/lampp/htdocs/php-codeigniter/Android/app/src/main/AndroidManifest.xml:21:17-69
 	android:name
-		ADDED from /opt/lampp/htdocs/php-codeigniter/Android/app/src/main/AndroidManifest.xml:18:25-66
+		ADDED from /opt/lampp/htdocs/php-codeigniter/Android/app/src/main/AndroidManifest.xml:21:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /opt/lampp/htdocs/php-codeigniter/Android/app/src/main/AndroidManifest.xml:20:17-77
+ADDED from /opt/lampp/htdocs/php-codeigniter/Android/app/src/main/AndroidManifest.xml:23:17-77
 	android:name
-		ADDED from /opt/lampp/htdocs/php-codeigniter/Android/app/src/main/AndroidManifest.xml:20:27-74
+		ADDED from /opt/lampp/htdocs/php-codeigniter/Android/app/src/main/AndroidManifest.xml:23:27-74
 uses-sdk
 INJECTED from /opt/lampp/htdocs/php-codeigniter/Android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /opt/lampp/htdocs/php-codeigniter/Android/app/src/main/AndroidManifest.xml

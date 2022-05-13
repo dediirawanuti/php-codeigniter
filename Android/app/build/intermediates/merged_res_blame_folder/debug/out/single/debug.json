@@ -64,6 +64,10 @@
         "source": "/opt/lampp/htdocs/php-codeigniter/Android/app/src/main/res/layout/fragment_penjualan.xml"
     },
     {
+        "merged": "/opt/lampp/htdocs/php-codeigniter/Android/app/build/intermediates/merged_res/debug/layout_content_barang.xml.flat",
+        "source": "/opt/lampp/htdocs/php-codeigniter/Android/app/src/main/res/layout/content_barang.xml"
+    },
+    {
         "merged": "/opt/lampp/htdocs/php-codeigniter/Android/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher.webp.flat",
         "source": "/opt/lampp/htdocs/php-codeigniter/Android/app/src/main/res/mipmap-hdpi/ic_launcher.webp"
     },
@@ -106,6 +110,10 @@
     {
         "merged": "/opt/lampp/htdocs/php-codeigniter/Android/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
         "source": "/opt/lampp/htdocs/php-codeigniter/Android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/opt/lampp/htdocs/php-codeigniter/Android/app/build/intermediates/merged_res/debug/drawable_ic_tambah.xml.flat",
+        "source": "/opt/lampp/htdocs/php-codeigniter/Android/app/src/main/res/drawable/ic_tambah.xml"
     },
     {
         "merged": "/opt/lampp/htdocs/php-codeigniter/Android/app/build/intermediates/merged_res/debug/drawable_ic_keranjang.xml.flat",

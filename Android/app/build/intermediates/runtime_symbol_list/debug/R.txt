@@ -1178,6 +1178,7 @@ int drawable ic_mtrl_chip_checked_circle 0x7f070069
 int drawable ic_mtrl_chip_close_circle 0x7f07006a
 int drawable ic_penjualan 0x7f070081
 int drawable ic_profil 0x7f070082
+int drawable ic_tambah 0x7f070083
 int drawable mtrl_snackbar_background 0x7f07006b
 int drawable mtrl_tabs_default_indicator 0x7f07006c
 int drawable navigation_empty_icon 0x7f07006d
@@ -1328,6 +1329,7 @@ int id ignore 0x7f08007d
 int id ignoreRequest 0x7f08007e
 int id image 0x7f08007f
 int id imageView 0x7f080080
+int id imageView2 0x7f080125
 int id info 0x7f080081
 int id invisible 0x7f080082
 int id italic 0x7f080083
@@ -1477,6 +1479,8 @@ int id transition_position 0x7f08010d
 int id transition_scene_layoutid_cache 0x7f08010e
 int id transition_transform 0x7f08010f
 int id triangle 0x7f080110
+int id txt_kode 0x7f080126
+int id txt_nama 0x7f080127
 int id uniform 0x7f080111
 int id unlabeled 0x7f080112
 int id up 0x7f080113
@@ -1535,6 +1539,7 @@ int layout abc_select_dialog_material 0x7f0b001a
 int layout abc_tooltip 0x7f0b001b
 int layout activity_main 0x7f0b001c
 int layout app_bar_main 0x7f0b001d
+int layout content_barang 0x7f0b004b
 int layout content_main 0x7f0b001e
 int layout design_bottom_navigation_item 0x7f0b001f
 int layout design_bottom_sheet_dialog 0x7f0b0020

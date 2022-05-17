@@ -11,6 +11,6 @@ public interface Barang {
     @FormUrlEncoded
 //    Get data (REST API)
     @GET(url)
-    Call<ResponseBarang> getPesan();
+    Call<ResponseBarang> tampil();
 
 }

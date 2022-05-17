@@ -5,10 +5,18 @@ import android.view.Display;
 import java.util.List;
 
 public class ResponseBarang {
+//    deklrasi variabel
     String pesan;
-    List<ModelBarang> data;
+    List<ModelBarang> pelanggan;
 
-    public String getPesan() {
+//    buat method
+//    untuk ambil response berisi "pesan"
+    String getPesan() {
         return pesan;
+    }
+
+//    untuk ambil response tampil data
+    List<ModelBarang> getPelanggan() {
+        return pelanggan;
     }
 }

@@ -72,4 +72,24 @@ class Pelanggan extends CI_Controller {
 		// $data["pelanggan"] = json_decode($this->client->simple_post(API_PELANGGAN));
 
 	}
+
+	function simpan() {
+		// Panggil helper "url (unutk direct halaman)"
+		$this->load->helper(array("url"));
+		
+		// panggil library "client (untuk baca "service_post" dari server)"
+		$this->load->library(array("client"));
+
+		// buat array untuk membaca data
+		$data = array(
+			"nama_plg" => $this->input->post("nama_plg"), "alamat_plg" => $this->input->post("alamat_plg"), "telepon_plg" => $this->input->post("telepon_plg"), "email_plg" => $this->input->post("email_plg"), "username_plg" => $this->input->post("username_plg"),"password_plg" => $this->input->post("password_plg")
+		);
+
+		// proses pengiriman data ke "service_post" pada server
+		$simpan = json_decode($this->client->simple_post(API_PELANGGAN, $data));
+
+		// tampilkan output
+		echo $simpan()->pesan;
+
+	}
 }

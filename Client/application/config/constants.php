@@ -86,4 +86,4 @@ defined('EXIT__AUTO_MAX')      OR define('EXIT__AUTO_MAX', 125); // highest auto
 
 
 // Buat konstanta
-define('API_PELANGGAN', "http://localhost/php-codeigniter/Server/index.php/Pelanggan");
+define('API_PELANGGAN', "http://localhost:8888/php-codeigniter/Server/index.php/Pelanggan");

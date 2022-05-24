@@ -14,7 +14,7 @@
             justify-content: center;
         }
         .btn_tambah {
-            whidth: 150px;
+            width: 150px;
             height: 40px;
             background: #FF0000;
             color: #FFFFFF;
@@ -24,7 +24,7 @@
             cursor : pointer;
         }
         .btn_batal {
-            whidth: 150px;
+            width: 150px;
             height: 40px;
             background: #FF0000;
             color: #FFFFFF;

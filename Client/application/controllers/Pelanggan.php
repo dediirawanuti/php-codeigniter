@@ -89,7 +89,8 @@ class Pelanggan extends CI_Controller {
 		$simpan = json_decode($this->client->simple_post(API_PELANGGAN, $data));
 
 		// tampilkan output
-		echo $simpan()->pesan;
+		$hasil = "$simpan->Pesan&bull;$simpan->status";
+		echo $hasil;
 
 	}
 }

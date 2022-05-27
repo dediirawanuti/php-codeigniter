@@ -322,9 +322,18 @@
                         url: "<?php echo site_url("Pelanggan/simpan"); ?>",
                         data: "nama_plg="+$("#txt_nama").val()+"&alamat_plg="+$("#txt_alamat").val()+"&telepon_plg="+$("#txt_telepon").val()+"&email_plg="+$("#txt_email").val()+"&username_plg="+$("#txt_username").val()+"&password_plg="+$("#txt_password").val(),
                         success: function (response) {
-                            
-                            alert(response);
 
+                            // buat variabel untuk ambil array response
+                            let str = response.split("&bull;");
+                            
+                            alert(str[0]);
+
+                            // jika str[1] bernilai = 1 (berhasil disimpan)
+                            if(str[1] == "1") {
+                                
+                            // redirect ke halaman "pelanggan_tampil"
+                            location.href="<?php echo site_url("Pelanggan") ?>";
+                            }
                         }
                     });
 

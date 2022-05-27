@@ -1,12 +1,20 @@
 package com.uti.pumkm.ui.barang;
 
+import android.content.Context;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v7.widget.DefaultItemAnimator;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 
 import com.uti.pumkm.R;
+
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -14,6 +22,17 @@ import com.uti.pumkm.R;
  * create an instance of this fragment.
  */
 public class BarangFragment extends Fragment {
+
+//    deklarasi variabel komponen
+    ImageView img_tambah;
+    RecyclerView rcv_data;
+
+//    deklarasi konstanta API
+    static final String APIPelanggan = "https://tisia.bppwlampung.com/Server/index.php/Pelanggan";
+
+//    deklarasi variabel List dan Array Adapter
+    List<ModelBarang> list = new ArrayList<>();
+    AdapterBarang adp;
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -59,6 +78,41 @@ public class BarangFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_barang, container, false);
+
+//        Buat variabel View
+        View vw = inflater.inflate(R.layout.fragment_barang, container, false);
+
+//        definisi variabek komponen
+        img_tambah = vw.findViewById(R.id.img_tambah);
+        rcv_data = vw.findViewById(R.id.rcv_data);
+
+//        definisi variabel List dan Array Adapter
+        adp = new AdapterBarang(getContext(), list);
+
+//        setup recycler view
+        RecyclerView.LayoutManager rcv_layout = new LinearLayoutManager(getContext());
+        rcv_data.setLayoutManager(rcv_layout);
+        rcv_data.setItemAnimator(new DefaultItemAnimator());
+        rcv_data.setAdapter(adp);
+
+//        panggil method tampil pelanggan
+        tampil_pelanggan();
+
+
+//        baut event
+        img_tambah.setOnClickListener(view -> {
+
+        });
+
+        rcv_data.setOnClickListener(view -> {
+
+        });
+
+        return vw;
+    }
+
+//    buat method tampil_pelanggan
+    void tampil_pelanggan() {
+        
     }
 }

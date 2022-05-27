@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/opt/lampp/htdocs/php-codeigniter/Android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w1240dp-v13/values-w1240dp-v13.xml",
+            "outputFile": "com.uti.pumkm.app-mergeDebugResources-3:/values-w1240dp-v13/values-w1240dp-v13.xml",
             "map": [
                 {
-                    "source": "/opt/lampp/htdocs/php-codeigniter/Android/app/src/main/res/values-w1240dp/dimens.xml",
+                    "source": "/Applications/MAMP/htdocs/php-codeigniter/Android/app/src/main/res/values-w1240dp/dimens.xml",
                     "from": {
                         "startLines": "1",
                         "startColumns": "4",

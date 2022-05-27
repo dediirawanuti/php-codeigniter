@@ -1,54 +1,54 @@
 [
     {
-        "merged": "/opt/lampp/htdocs/php-codeigniter/Android/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/nav_header_main.xml",
-        "source": "/opt/lampp/htdocs/php-codeigniter/Android/app/src/main/res/layout/nav_header_main.xml"
+        "merged": "com.uti.pumkm.app-mergeDebugResources-4:/layout/fragment_slideshow.xml",
+        "source": "com.uti.pumkm.app-main-7:/layout/fragment_slideshow.xml"
     },
     {
-        "merged": "/opt/lampp/htdocs/php-codeigniter/Android/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_dashboard.xml",
-        "source": "/opt/lampp/htdocs/php-codeigniter/Android/app/src/main/res/layout/fragment_dashboard.xml"
+        "merged": "com.uti.pumkm.app-mergeDebugResources-4:/layout/content_barang.xml",
+        "source": "com.uti.pumkm.app-main-7:/layout/content_barang.xml"
     },
     {
-        "merged": "/opt/lampp/htdocs/php-codeigniter/Android/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_slideshow.xml",
-        "source": "/opt/lampp/htdocs/php-codeigniter/Android/app/src/main/res/layout/fragment_slideshow.xml"
+        "merged": "com.uti.pumkm.app-mergeDebugResources-4:/layout/nav_header_main.xml",
+        "source": "com.uti.pumkm.app-main-7:/layout/nav_header_main.xml"
     },
     {
-        "merged": "/opt/lampp/htdocs/php-codeigniter/Android/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/app_bar_main.xml",
-        "source": "/opt/lampp/htdocs/php-codeigniter/Android/app/src/main/res/layout/app_bar_main.xml"
+        "merged": "com.uti.pumkm.app-mergeDebugResources-4:/layout/fragment_keranjang.xml",
+        "source": "com.uti.pumkm.app-main-7:/layout/fragment_keranjang.xml"
     },
     {
-        "merged": "/opt/lampp/htdocs/php-codeigniter/Android/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/content_barang.xml",
-        "source": "/opt/lampp/htdocs/php-codeigniter/Android/app/src/main/res/layout/content_barang.xml"
+        "merged": "com.uti.pumkm.app-mergeDebugResources-4:/layout/fragment_gallery.xml",
+        "source": "com.uti.pumkm.app-main-7:/layout/fragment_gallery.xml"
     },
     {
-        "merged": "/opt/lampp/htdocs/php-codeigniter/Android/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/content_main.xml",
-        "source": "/opt/lampp/htdocs/php-codeigniter/Android/app/src/main/res/layout/content_main.xml"
+        "merged": "com.uti.pumkm.app-mergeDebugResources-4:/layout/fragment_home.xml",
+        "source": "com.uti.pumkm.app-main-7:/layout/fragment_home.xml"
     },
     {
-        "merged": "/opt/lampp/htdocs/php-codeigniter/Android/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_gallery.xml",
-        "source": "/opt/lampp/htdocs/php-codeigniter/Android/app/src/main/res/layout/fragment_gallery.xml"
+        "merged": "com.uti.pumkm.app-mergeDebugResources-4:/layout/content_main.xml",
+        "source": "com.uti.pumkm.app-main-7:/layout/content_main.xml"
     },
     {
-        "merged": "/opt/lampp/htdocs/php-codeigniter/Android/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_home.xml",
-        "source": "/opt/lampp/htdocs/php-codeigniter/Android/app/src/main/res/layout/fragment_home.xml"
+        "merged": "com.uti.pumkm.app-mergeDebugResources-4:/layout/activity_main.xml",
+        "source": "com.uti.pumkm.app-main-7:/layout/activity_main.xml"
     },
     {
-        "merged": "/opt/lampp/htdocs/php-codeigniter/Android/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_barang.xml",
-        "source": "/opt/lampp/htdocs/php-codeigniter/Android/app/src/main/res/layout/fragment_barang.xml"
+        "merged": "com.uti.pumkm.app-mergeDebugResources-4:/layout/fragment_barang.xml",
+        "source": "com.uti.pumkm.app-main-7:/layout/fragment_barang.xml"
     },
     {
-        "merged": "/opt/lampp/htdocs/php-codeigniter/Android/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_main.xml",
-        "source": "/opt/lampp/htdocs/php-codeigniter/Android/app/src/main/res/layout/activity_main.xml"
+        "merged": "com.uti.pumkm.app-mergeDebugResources-4:/layout/fragment_penjualan.xml",
+        "source": "com.uti.pumkm.app-main-7:/layout/fragment_penjualan.xml"
     },
     {
-        "merged": "/opt/lampp/htdocs/php-codeigniter/Android/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_penjualan.xml",
-        "source": "/opt/lampp/htdocs/php-codeigniter/Android/app/src/main/res/layout/fragment_penjualan.xml"
+        "merged": "com.uti.pumkm.app-mergeDebugResources-4:/layout/app_bar_main.xml",
+        "source": "com.uti.pumkm.app-main-7:/layout/app_bar_main.xml"
     },
     {
-        "merged": "/opt/lampp/htdocs/php-codeigniter/Android/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_keranjang.xml",
-        "source": "/opt/lampp/htdocs/php-codeigniter/Android/app/src/main/res/layout/fragment_keranjang.xml"
+        "merged": "com.uti.pumkm.app-mergeDebugResources-4:/layout/fragment_profile.xml",
+        "source": "com.uti.pumkm.app-main-7:/layout/fragment_profile.xml"
     },
     {
-        "merged": "/opt/lampp/htdocs/php-codeigniter/Android/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_profile.xml",
-        "source": "/opt/lampp/htdocs/php-codeigniter/Android/app/src/main/res/layout/fragment_profile.xml"
+        "merged": "com.uti.pumkm.app-mergeDebugResources-4:/layout/fragment_dashboard.xml",
+        "source": "com.uti.pumkm.app-main-7:/layout/fragment_dashboard.xml"
     }
 ]

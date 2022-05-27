@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/opt/lampp/htdocs/php-codeigniter/Android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-night-v8/values-night-v8.xml",
+            "outputFile": "com.uti.pumkm.app-mergeDebugResources-3:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
-                    "source": "/home/dedi-irawan/.gradle/caches/transforms-3/0b1495e829d7e1446b1acdb33ea789f8/transformed/appcompat-v7-28.0.0/res/values-night-v8/values-night-v8.xml",
+                    "source": "/Users/macbookair/.gradle/caches/transforms-3/05de8c41fdde52fe1c7dc583b599de44/transformed/appcompat-v7-28.0.0/res/values-night-v8/values-night-v8.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8",
                         "startColumns": "4,4,4,4,4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "/opt/lampp/htdocs/php-codeigniter/Android/app/src/main/res/values-night/themes.xml",
+                    "source": "/Applications/MAMP/htdocs/php-codeigniter/Android/app/src/main/res/values-night/themes.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -29,7 +29,7 @@
                         "startOffsets": "687",
                         "endLines": "15",
                         "endColumns": "12",
-                        "endOffsets": "1031"
+                        "endOffsets": "967"
                     }
                 }
             ]

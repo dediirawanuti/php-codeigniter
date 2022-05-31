@@ -12,6 +12,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.Toast;
 
 import com.uti.pumkm.R;
 
@@ -38,7 +39,7 @@ public class BarangFragment extends Fragment {
     RecyclerView rcv_data;
 
 //    deklarasi konstanta API
-    static final String APIPelanggan = "https://tisia.bppwlampung.com/Server/index.php/Pelanggan";
+    static final String APIPelanggan = "https://tisia.bppwlampung.com/Server/index.php/Pelanggan/";
 
 //    deklarasi variabel List dan Array Adapter
     List<ModelBarang> list = new ArrayList<>();

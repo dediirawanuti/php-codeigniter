@@ -1,54 +1,58 @@
 [
     {
-        "merged": "com.uti.pumkm.app-mergeDebugResources-4:/layout/fragment_slideshow.xml",
-        "source": "com.uti.pumkm.app-main-7:/layout/fragment_slideshow.xml"
+        "merged": "/Users/macbookair/.gradle/daemon/7.3.3/com.uti.pumkm.app-mergeDebugResources-4:/layout/fragment_gallery.xml",
+        "source": "/Users/macbookair/.gradle/daemon/7.3.3/com.uti.pumkm.app-main-7:/layout/fragment_gallery.xml"
     },
     {
-        "merged": "com.uti.pumkm.app-mergeDebugResources-4:/layout/content_barang.xml",
-        "source": "com.uti.pumkm.app-main-7:/layout/content_barang.xml"
+        "merged": "/Users/macbookair/.gradle/daemon/7.3.3/com.uti.pumkm.app-mergeDebugResources-4:/layout/fragment_barang.xml",
+        "source": "/Users/macbookair/.gradle/daemon/7.3.3/com.uti.pumkm.app-main-7:/layout/fragment_barang.xml"
     },
     {
-        "merged": "com.uti.pumkm.app-mergeDebugResources-4:/layout/nav_header_main.xml",
-        "source": "com.uti.pumkm.app-main-7:/layout/nav_header_main.xml"
+        "merged": "/Users/macbookair/.gradle/daemon/7.3.3/com.uti.pumkm.app-mergeDebugResources-4:/layout/fragment_keranjang.xml",
+        "source": "/Users/macbookair/.gradle/daemon/7.3.3/com.uti.pumkm.app-main-7:/layout/fragment_keranjang.xml"
     },
     {
-        "merged": "com.uti.pumkm.app-mergeDebugResources-4:/layout/fragment_keranjang.xml",
-        "source": "com.uti.pumkm.app-main-7:/layout/fragment_keranjang.xml"
+        "merged": "/Users/macbookair/.gradle/daemon/7.3.3/com.uti.pumkm.app-mergeDebugResources-4:/layout/content_main.xml",
+        "source": "/Users/macbookair/.gradle/daemon/7.3.3/com.uti.pumkm.app-main-7:/layout/content_main.xml"
     },
     {
-        "merged": "com.uti.pumkm.app-mergeDebugResources-4:/layout/fragment_gallery.xml",
-        "source": "com.uti.pumkm.app-main-7:/layout/fragment_gallery.xml"
+        "merged": "/Users/macbookair/.gradle/daemon/7.3.3/com.uti.pumkm.app-mergeDebugResources-4:/layout/fragment_dashboard.xml",
+        "source": "/Users/macbookair/.gradle/daemon/7.3.3/com.uti.pumkm.app-main-7:/layout/fragment_dashboard.xml"
     },
     {
-        "merged": "com.uti.pumkm.app-mergeDebugResources-4:/layout/fragment_home.xml",
-        "source": "com.uti.pumkm.app-main-7:/layout/fragment_home.xml"
+        "merged": "/Users/macbookair/.gradle/daemon/7.3.3/com.uti.pumkm.app-mergeDebugResources-4:/layout/fragment_penjualan.xml",
+        "source": "/Users/macbookair/.gradle/daemon/7.3.3/com.uti.pumkm.app-main-7:/layout/fragment_penjualan.xml"
     },
     {
-        "merged": "com.uti.pumkm.app-mergeDebugResources-4:/layout/content_main.xml",
-        "source": "com.uti.pumkm.app-main-7:/layout/content_main.xml"
+        "merged": "/Users/macbookair/.gradle/daemon/7.3.3/com.uti.pumkm.app-mergeDebugResources-4:/layout/app_bar_main.xml",
+        "source": "/Users/macbookair/.gradle/daemon/7.3.3/com.uti.pumkm.app-main-7:/layout/app_bar_main.xml"
     },
     {
-        "merged": "com.uti.pumkm.app-mergeDebugResources-4:/layout/activity_main.xml",
-        "source": "com.uti.pumkm.app-main-7:/layout/activity_main.xml"
+        "merged": "/Users/macbookair/.gradle/daemon/7.3.3/com.uti.pumkm.app-mergeDebugResources-4:/layout/fragment_profile.xml",
+        "source": "/Users/macbookair/.gradle/daemon/7.3.3/com.uti.pumkm.app-main-7:/layout/fragment_profile.xml"
+    },
+    {
+        "merged": "/Users/macbookair/.gradle/daemon/7.3.3/com.uti.pumkm.app-mergeDebugResources-4:/layout/nav_header_main.xml",
+        "source": "/Users/macbookair/.gradle/daemon/7.3.3/com.uti.pumkm.app-main-7:/layout/nav_header_main.xml"
     },
     {
         "merged": "com.uti.pumkm.app-mergeDebugResources-4:/layout/fragment_barang.xml",
         "source": "com.uti.pumkm.app-main-7:/layout/fragment_barang.xml"
     },
     {
-        "merged": "com.uti.pumkm.app-mergeDebugResources-4:/layout/fragment_penjualan.xml",
-        "source": "com.uti.pumkm.app-main-7:/layout/fragment_penjualan.xml"
+        "merged": "/Users/macbookair/.gradle/daemon/7.3.3/com.uti.pumkm.app-mergeDebugResources-4:/layout/activity_main.xml",
+        "source": "/Users/macbookair/.gradle/daemon/7.3.3/com.uti.pumkm.app-main-7:/layout/activity_main.xml"
     },
     {
-        "merged": "com.uti.pumkm.app-mergeDebugResources-4:/layout/app_bar_main.xml",
-        "source": "com.uti.pumkm.app-main-7:/layout/app_bar_main.xml"
+        "merged": "/Users/macbookair/.gradle/daemon/7.3.3/com.uti.pumkm.app-mergeDebugResources-4:/layout/fragment_home.xml",
+        "source": "/Users/macbookair/.gradle/daemon/7.3.3/com.uti.pumkm.app-main-7:/layout/fragment_home.xml"
     },
     {
-        "merged": "com.uti.pumkm.app-mergeDebugResources-4:/layout/fragment_profile.xml",
-        "source": "com.uti.pumkm.app-main-7:/layout/fragment_profile.xml"
+        "merged": "/Users/macbookair/.gradle/daemon/7.3.3/com.uti.pumkm.app-mergeDebugResources-4:/layout/content_barang.xml",
+        "source": "/Users/macbookair/.gradle/daemon/7.3.3/com.uti.pumkm.app-main-7:/layout/content_barang.xml"
     },
     {
-        "merged": "com.uti.pumkm.app-mergeDebugResources-4:/layout/fragment_dashboard.xml",
-        "source": "com.uti.pumkm.app-main-7:/layout/fragment_dashboard.xml"
+        "merged": "/Users/macbookair/.gradle/daemon/7.3.3/com.uti.pumkm.app-mergeDebugResources-4:/layout/fragment_slideshow.xml",
+        "source": "/Users/macbookair/.gradle/daemon/7.3.3/com.uti.pumkm.app-main-7:/layout/fragment_slideshow.xml"
     }
 ]

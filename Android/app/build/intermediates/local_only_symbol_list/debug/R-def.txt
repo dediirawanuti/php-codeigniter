@@ -30,7 +30,7 @@ id app_bar_main
 id drawer_layout
 id fab
 id imageView
-id imageView2
+id img_tambah
 id mobile_navigation
 id nav_barang
 id nav_dashboard
@@ -40,6 +40,7 @@ id nav_logout
 id nav_penjualan
 id nav_profil
 id nav_view
+id rcv_data
 id textView
 id text_gallery
 id text_home

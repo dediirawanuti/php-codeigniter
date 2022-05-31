@@ -1330,7 +1330,7 @@ id ignore
 id ignoreRequest
 id image
 id imageView
-id imageView2
+id img_tambah
 id info
 id invisible
 id italic
@@ -1389,6 +1389,7 @@ id progress_circular
 id progress_horizontal
 id radio
 id ratio
+id rcv_data
 id rectangles
 id reverseSawtooth
 id right

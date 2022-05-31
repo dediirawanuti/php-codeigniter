@@ -1,7 +1,9 @@
 package com.uti.pumkm.ui.barang;
 
+import android.app.ProgressDialog;
 import android.content.Context;
 import android.os.Bundle;
+import android.support.design.widget.Snackbar;
 import android.support.v4.app.Fragment;
 import android.support.v7.widget.DefaultItemAnimator;
 import android.support.v7.widget.LinearLayoutManager;
@@ -16,12 +18,20 @@ import com.uti.pumkm.R;
 import java.util.ArrayList;
 import java.util.List;
 
+import retrofit2.Call;
+import retrofit2.Callback;
+import retrofit2.Response;
+import retrofit2.Retrofit;
+import retrofit2.converter.gson.GsonConverterFactory;
+
 /**
  * A simple {@link Fragment} subclass.
  * Use the {@link BarangFragment#newInstance} factory method to
  * create an instance of this fragment.
  */
 public class BarangFragment extends Fragment {
+//    deklarasi variabel view
+    View vw;
 
 //    deklarasi variabel komponen
     ImageView img_tambah;
@@ -78,9 +88,8 @@ public class BarangFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-
 //        Buat variabel View
-        View vw = inflater.inflate(R.layout.fragment_barang, container, false);
+        vw = inflater.inflate(R.layout.fragment_barang, container, false);
 
 //        definisi variabek komponen
         img_tambah = vw.findViewById(R.id.img_tambah);
@@ -113,6 +122,48 @@ public class BarangFragment extends Fragment {
 
 //    buat method tampil_pelanggan
     void tampil_pelanggan() {
-        
+//        deklarasi variable komponen "Progress Dialog"
+        ProgressDialog pd;
+//        setup progress dialog
+        pd = new ProgressDialog(getContext());
+//        progress dialog tidak dapat di cancel
+        pd.setCancelable(false);
+//        isi teks progress dialog
+        pd.setMessage("Mohon Tunggu ...");
+//        tampilkan progress dialog
+        pd.show();
+
+//        Menggunakan retrofit untuk pemanggilan data
+//        definisi Retrofit
+        Retrofit rf = new Retrofit.Builder().baseUrl(APIPelanggan).addConverterFactory(GsonConverterFactory.create()).build();
+//        Panggil interface barang
+        Barang br = rf.create(Barang.class);
+//        Panggil method "tampil" dari interface "Barang"
+        Call<ResponseBarang> cl = br.tampil();
+
+//        dekripsikan isi variabel "cl"
+        cl.enqueue(new Callback<ResponseBarang>() {
+//            ketika data berhasil diambil
+            @Override
+            public void onResponse(Call<ResponseBarang> call, Response<ResponseBarang> response) {
+//                tutup progress dialog
+                pd.dismiss();
+//                tampilkan data pelanggan ke dalam list
+                list = response.body().getPelanggan();
+//                mengisi data adapter dari list
+                adp = new AdapterBarang(getActivity(), list);
+//                tampilkan isi adapter ke dalam recyclerview
+                rcv_data.setAdapter(adp);
+            }
+//            ketika data gagal diambil
+            @Override
+            public void onFailure(Call<ResponseBarang> call, Throwable t) {
+//                hilangkan progress dialog
+                pd.dismiss();
+//                tampilkan pesan
+                Snackbar.make(vw, "Data Gagal diambil !! Cek Koneksi Internet Anda !!", Snackbar.LENGTH_SHORT).show();
+            }
+        });
+
     }
 }

@@ -115,28 +115,28 @@
         <tr>
             <td class="tengah">
                 <section class="area_aksi">
-                    <button class="btn_ubah">
+                    <button class="btn_ubah" onclick="ubah('<?php echo md5($dt->id_plg); ?>')">
                         Ubah
                     </button>
-                    <button class="btn_hapus" onclick="hapus('<?php echo $dt->nama; ?>', '<?php echo md5($dt->id); ?>')">
+                    <button class="btn_hapus" onclick="hapus('<?php echo $dt->nm_plg; ?>', '<?php echo md5($dt->id_plg); ?>')">
                         Hapus
                     </button>
                 </section>
             </td>
             <td>
-                <?php echo $dt->nama; ?>
+                <?php echo $dt->nm_plg; ?>
             </td>
             <td>
-                <?php echo $dt->alamat; ?>
+                <?php echo $dt->al_plg; ?>
             </td>
             <td class="tengah">
-                <?php echo $dt->telepon; ?>
+                <?php echo $dt->tl_plg; ?>
             </td>
             <td>
-                <?php echo $dt->email; ?>
+                <?php echo $dt->em_plg; ?>
             </td>
             <td class="tengah">
-                <?php echo $dt->username; ?>
+                <?php echo $dt->us_plg; ?>
             </td>
         </tr>
         <?php
@@ -169,6 +169,12 @@
             // else {
             //     alert("Batal")
             // }
+        }
+        // fungsi ubah data (menampilkan data yang dipilih)
+        function ubah(id) {
+            // alihkan ke halaman "Pelanggan" fungsi "detail""
+            location.href="<?php echo site_url("pelanggan/detail"); ?>"+"/"+id;
+
         }
 
     </script>

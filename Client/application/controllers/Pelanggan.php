@@ -93,4 +93,23 @@ class Pelanggan extends CI_Controller {
 		echo $hasil;
 
 	}
+
+	// buat fungsi detail (untuk menampilkan data pelanggan berdasarkan data yang di tampilkan)
+	function detail() {
+		// Panggil helper "url (unutk direct halaman)"
+		$this->load->helper(array("url"));
+		
+		// panggil library "client (untuk baca "service_get" dari server)"
+		$this->load->library(array("client"));
+
+		// ambil nilai hashing MD5(id)
+		$id = $this->uri->segment(3);
+
+		// gunakan fungsi "get" untuk ambil data
+		$hasil = json_decode($this->client->simple_get(API_PELANGGAN, array("id_plg" => $id)));
+
+		foreach($hasil AS $data) {
+			echo "Nama : ".$data->nm_plg;
+		}
+	}
 }

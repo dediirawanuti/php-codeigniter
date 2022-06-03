@@ -39,7 +39,7 @@ public class BarangFragment extends Fragment {
     RecyclerView rcv_data;
 
 //    deklarasi konstanta API
-    static final String APIPelanggan = "https://tisia.bppwlampung.com/Server/index.php/Pelanggan/";
+    static final String APIPelanggan = "https://tisia.bppwlampung.com/Server/index.php/";
 
 //    deklarasi variabel List dan Array Adapter
     List<ModelBarang> list = new ArrayList<>();
@@ -108,7 +108,6 @@ public class BarangFragment extends Fragment {
 //        panggil method tampil pelanggan
         tampil_pelanggan();
 
-
 //        baut event
         img_tambah.setOnClickListener(view -> {
 
@@ -162,7 +161,7 @@ public class BarangFragment extends Fragment {
 //                hilangkan progress dialog
                 pd.dismiss();
 //                tampilkan pesan
-                Snackbar.make(vw, "Data Gagal diambil !! Cek Koneksi Internet Anda !!", Snackbar.LENGTH_SHORT).show();
+                Snackbar.make(vw, "Data Gagal diambil !! Cek Koneksi Internet Anda !!",Snackbar.LENGTH_SHORT).show();
             }
         });
 

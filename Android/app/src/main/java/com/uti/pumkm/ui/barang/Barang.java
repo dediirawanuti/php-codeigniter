@@ -8,9 +8,8 @@ public interface Barang {
 //    buat variabel
     String url = "Pelanggan";
 
-    @FormUrlEncoded
+//    @FormUrlEncoded
 //    Get data (REST API)
     @GET(url)
     Call<ResponseBarang> tampil();
-
 }

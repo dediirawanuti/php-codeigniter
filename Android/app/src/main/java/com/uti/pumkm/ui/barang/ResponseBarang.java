@@ -6,13 +6,13 @@ import java.util.List;
 
 public class ResponseBarang {
 //    deklrasi variabel
-    String pesan;
+    String Pesan;
     List<ModelBarang> pelanggan;
 
 //    buat method
 //    untuk ambil response berisi "pesan"
     String getPesan() {
-        return pesan;
+        return Pesan;
     }
 
 //    untuk ambil response tampil data

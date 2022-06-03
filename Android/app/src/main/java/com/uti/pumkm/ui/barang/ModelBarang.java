@@ -2,7 +2,7 @@ package com.uti.pumkm.ui.barang;
 
 public class ModelBarang {
 //    buat variael unutk "data pelanggan"
-    String id, kode, nama, alamat, telepon, email, username, password;
+    String id_plg, kd_plg, nm_plg, al_plg, tl_plg, em_plg, us_plg, pw_plg;
 
 //    buat method "setABC" untuk isi data
 
@@ -10,35 +10,35 @@ public class ModelBarang {
 
 //    buat method "getABC" untuk isi data
     String getId() {
-        return id;
+        return id_plg;
     }
 
     String getKode() {
-        return kode;
+        return kd_plg;
     }
 
     String getNama() {
-        return nama;
+        return nm_plg;
     }
 
     String getAlamat() {
-        return alamat;
+        return al_plg;
     }
 
     String getTelepon() {
-        return telepon;
+        return tl_plg;
     }
 
     String getEmail() {
-        return email;
+        return em_plg;
     }
 
     String getUsername() {
-        return username;
+        return us_plg;
     }
 
     String getPassword() {
-        return password;
+        return pw_plg;
     }
 
 }

@@ -80,10 +80,6 @@
         "source": "/Users/macbookair/.gradle/daemon/7.3.3/com.uti.pumkm.app-main-7:/drawable/ic_profil.xml"
     },
     {
-        "merged": "com.uti.pumkm.app-merged_res-5:/layout_fragment_barang.xml.flat",
-        "source": "com.uti.pumkm.app-main-7:/layout/fragment_barang.xml"
-    },
-    {
         "merged": "/Users/macbookair/.gradle/daemon/7.3.3/com.uti.pumkm.app-merged_res-5:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
         "source": "/Users/macbookair/.gradle/daemon/7.3.3/com.uti.pumkm.app-main-7:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
@@ -158,6 +154,10 @@
     {
         "merged": "/Users/macbookair/.gradle/daemon/7.3.3/com.uti.pumkm.app-merged_res-5:/mipmap-xxhdpi_ic_launcher.webp.flat",
         "source": "/Users/macbookair/.gradle/daemon/7.3.3/com.uti.pumkm.app-main-7:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.uti.pumkm.app-merged_res-5:/layout_content_barang.xml.flat",
+        "source": "com.uti.pumkm.app-main-7:/layout/content_barang.xml"
     },
     {
         "merged": "/Users/macbookair/.gradle/daemon/7.3.3/com.uti.pumkm.app-merged_res-5:/mipmap-anydpi-v26_ic_launcher.xml.flat",

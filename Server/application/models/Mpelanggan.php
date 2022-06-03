@@ -4,11 +4,20 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 class MPelanggan extends CI_Model {
 
     // Fungsi Baca Data
-    function get_data() {
+    function get_data($id) {
 
         // tampilkan data pelanggan
         // urutkan berdasarkan "kode" secara "asc"
+        $this->db->select("id AS id_plg, kode AS kd_plg, nama AS nm_plg, alamat AS al_plg, telepon AS tl_plg, email AS em_plg, username AS us_plg, password AS pw_plg");
+
         $this->db->from("tb_pelanggan");
+
+        // jika parameter "id" terisi
+        if(!empty($id)) {
+            $this->db->where("MD5(id) = '$id'");
+
+        }
+
         $this->db->order_by("kode","asc");
         // eksekusi query
         $query = $this->db->get() ->result();

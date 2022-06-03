@@ -11,26 +11,29 @@ class Pelanggan extends Server {
 		// panggil file model (MPelanggan)
 		$this->load->model("mpelanggan","mdl",TRUE);
 
+		// ambil parameter id
+		$id =$this->get("id_plg");
+
 		// tampilkan data
 		// panggil fungsi "get_data"
-		$hasil = $this->mdl->get_data();
+		$hasil = $this->mdl->get_data($id);
 		$this->response($hasil,200);
 		// looping hasil
-		foreach ($hasil as $data) {
-			// $x = $data->y
-			// x = variable
-			// y = nama fiels pada tabel
-			$id = $data->id;
-			$kode = $data->kode;
-			$nama = $data->nama;
-			$alamat = $data->alamat;
-			$telepon = $data->telepon;
-			$email = $data->email;
-			$username = $data->username;
-			$password = $data->password;
+		// foreach ($hasil as $data) {
+		// 	// $x = $data->y
+		// 	// x = variable
+		// 	// y = nama fiels pada tabel
+		// 	$id = $data->id;
+		// 	$kode = $data->kode;
+		// 	$nama = $data->nama;
+		// 	$alamat = $data->alamat;
+		// 	$telepon = $data->telepon;
+		// 	$email = $data->email;
+		// 	$username = $data->username;
+		// 	$password = $data->password;
 
-			echo $kode;
-		}
+		// 	echo $kode;
+		// }
 
 	}
 

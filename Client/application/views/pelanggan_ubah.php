@@ -13,7 +13,7 @@
             width: 100%;
             justify-content: center;
         }
-        .btn_simpan {
+        .btn_ubah {
             width: 150px;
             height: 40px;
             background: #FF0000;
@@ -66,8 +66,8 @@
     <!-- area tombol -->
     <nav class="area_tombol">
         <!-- tombol tambah -->
-        <button class="btn_simpan" onclick="simpan()">
-            Simpan
+        <button class="btn_ubah" onclick="ubah()">
+            Ubah
         </button>
         <!-- tombol batal -->
         <button class="btn_batal" onclick="batal()">
@@ -134,13 +134,29 @@
             // variabel warna
             let merah = "#FF0000";
             let abu = "#333333";
+            let id;
+
+            // fungsi yang dijalankan pada saat halaman di load
+            $(function () {
+                id = '<?php echo $id_hash; ?>';
+
+                // tampilkan isi "array" ke dalam komponen
+                $("#txt_nama").val('<?php echo $nama ?>');
+                $("#txt_telepon").val('<?php echo $telepon ?>');
+                $("#txt_alamat").val('<?php echo $alamat ?>');
+                $("#txt_email").val('<?php echo $email ?>');
+                $("#txt_username").val('<?php echo $username ?>');
+                $("#txt_password").val('<?php echo $password ?>');
+
+            })
+
             function batal() {
                 // alihkan ke halaman "Pelamggan"
                 location.href="<?php echo site_url("pelanggan")?>";
 
             }
 
-            function simpan() {
+            function ubah() {
                 // $(".label_object").css("color","#FFCC00");
                 // $(".label_object").css("font-size","24px");
                 // $("#lbl_nama").html("Isi nama pelanggan");
@@ -318,9 +334,10 @@
                     
                     // proses penyimpanan data pelanggan dengan AJAX 
                     $.ajax({
-                        type: "POST",
-                        url: "<?php echo site_url("Pelanggan/simpan"); ?>",
-                        data: "nama_plg="+$("#txt_nama").val()+"&alamat_plg="+$("#txt_alamat").val()+"&telepon_plg="+$("#txt_telepon").val()+"&email_plg="+$("#txt_email").val()+"&username_plg="+$("#txt_username").val()+"&password_plg="+$("#txt_password").val(),
+                        type: "PUT",
+                        url: "<?php echo site_url("Pelanggan/ubah"); ?>",
+                        data: "nama_plg="+$("#txt_nama").val()+"&alamat_plg="+$("#txt_alamat").val()+"&telepon_plg="+$("#txt_telepon").val()+"&email_plg="+$("#txt_email").val()+"&username_plg="+$("#txt_username").val()+"&password_plg="+$("#txt_password").val()+"$id_plg="+id,
+
                         success: function (response) {
 
                             // buat variabel untuk ambil array response

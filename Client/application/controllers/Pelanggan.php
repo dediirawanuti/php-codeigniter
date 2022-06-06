@@ -109,7 +109,26 @@ class Pelanggan extends CI_Controller {
 		$hasil = json_decode($this->client->simple_get(API_PELANGGAN, array("id_plg" => $id)));
 
 		foreach($hasil AS $data) {
-			echo "Nama : ".$data->nm_plg;
+			$tampil["id"] = $data->id_plg;
+			$tampil["kode"] = $data->kd_plg;
+			$tampil["nama"] = $data->nm_plg;
+			$tampil["telepon"] = $data->tl_plg;
+			$tampil["alamat"] = $data->al_plg;
+			$tampil["email"] = $data->em_plg;
+			$tampil["username"] = $data->us_plg;
+			$tampil["password"] = $data->pw_plg;
+			$tampil["id_hash"] = $id;
 		}
+		$this->load->view('pelanggan_ubah', $tampil);
+	}
+
+	function ubah() {
+		// Panggil helper "url (unutk direct halaman)"
+		$this->load->helper(array("url"));
+		
+		// panggil library "client (untuk baca "service_get" dari server)"
+		$this->load->library(array("client"));
+
+
 	}
 }

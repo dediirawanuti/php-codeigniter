@@ -20,6 +20,7 @@ MERGED from [com.android.support:support-core-utils:28.0.0] /Users/macbookair/.g
 MERGED from [com.android.support:loader:28.0.0] /Users/macbookair/.gradle/caches/transforms-3/cad7c295978b37762433bd6f5c588faa/transformed/loader-28.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/macbookair/.gradle/caches/transforms-3/52f155cb03c6ba4a6d984234c04ce745/transformed/livedata-1.1.1/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/macbookair/.gradle/caches/transforms-3/bcb9b869b128858eb294509ac37175b8/transformed/viewmodel-1.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.jakewharton:butterknife:8.8.1] /Users/macbookair/.gradle/caches/transforms-3/e285053f7fcf310ac32aaec3390eab7b/transformed/butterknife-8.8.1/AndroidManifest.xml:2:1-7:12
 MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/macbookair/.gradle/caches/transforms-3/72cd64a2687b4d8364d05e95cde30976/transformed/support-vector-drawable-28.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:transition:28.0.0] /Users/macbookair/.gradle/caches/transforms-3/3bcc28c74ae75461659284a1e4ffa23f/transformed/transition-28.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-media-compat:28.0.0] /Users/macbookair/.gradle/caches/transforms-3/bced22c0334ceb9268140ee23af83b11/transformed/support-media-compat-28.0.0/AndroidManifest.xml:17:1-22:12
@@ -143,6 +144,8 @@ MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/macbookair/.gradle/ca
 MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/macbookair/.gradle/caches/transforms-3/52f155cb03c6ba4a6d984234c04ce745/transformed/livedata-1.1.1/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/macbookair/.gradle/caches/transforms-3/bcb9b869b128858eb294509ac37175b8/transformed/viewmodel-1.1.1/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/macbookair/.gradle/caches/transforms-3/bcb9b869b128858eb294509ac37175b8/transformed/viewmodel-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.jakewharton:butterknife:8.8.1] /Users/macbookair/.gradle/caches/transforms-3/e285053f7fcf310ac32aaec3390eab7b/transformed/butterknife-8.8.1/AndroidManifest.xml:5:5-43
+MERGED from [com.jakewharton:butterknife:8.8.1] /Users/macbookair/.gradle/caches/transforms-3/e285053f7fcf310ac32aaec3390eab7b/transformed/butterknife-8.8.1/AndroidManifest.xml:5:5-43
 MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/macbookair/.gradle/caches/transforms-3/72cd64a2687b4d8364d05e95cde30976/transformed/support-vector-drawable-28.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/macbookair/.gradle/caches/transforms-3/72cd64a2687b4d8364d05e95cde30976/transformed/support-vector-drawable-28.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:transition:28.0.0] /Users/macbookair/.gradle/caches/transforms-3/3bcc28c74ae75461659284a1e4ffa23f/transformed/transition-28.0.0/AndroidManifest.xml:20:5-44

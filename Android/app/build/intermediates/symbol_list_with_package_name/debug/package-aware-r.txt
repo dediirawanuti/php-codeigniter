@@ -1565,6 +1565,7 @@ layout fragment_keranjang
 layout fragment_penjualan
 layout fragment_profile
 layout fragment_slideshow
+layout fragment_tambah_barang
 layout mtrl_layout_snackbar
 layout mtrl_layout_snackbar_include
 layout nav_header_main
@@ -1648,6 +1649,7 @@ string menu_keranjang
 string menu_logout
 string menu_penjualan
 string menu_profil
+string menu_tambah_barang
 string mtrl_chip_close_icon_content_description
 string nav_app_bar_navigate_up_description
 string nav_app_bar_open_drawer_description

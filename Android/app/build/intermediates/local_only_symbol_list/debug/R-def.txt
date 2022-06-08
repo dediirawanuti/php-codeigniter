@@ -60,6 +60,7 @@ layout fragment_keranjang
 layout fragment_penjualan
 layout fragment_profile
 layout fragment_slideshow
+layout fragment_tambah_barang
 layout nav_header_main
 menu activity_main_drawer
 menu main
@@ -76,6 +77,7 @@ string menu_keranjang
 string menu_logout
 string menu_penjualan
 string menu_profil
+string menu_tambah_barang
 string nav_header_desc
 string nav_header_subtitle
 string nav_header_title

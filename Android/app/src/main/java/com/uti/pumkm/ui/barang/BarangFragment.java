@@ -19,6 +19,8 @@ import com.uti.pumkm.R;
 import java.util.ArrayList;
 import java.util.List;
 
+import butterknife.ButterKnife;
+import butterknife.OnClick;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
@@ -85,12 +87,23 @@ public class BarangFragment extends Fragment {
         }
     }
 
+//    buat event 'img_tambah' dengan butterknife
+    @OnClick(R.id.img_tambah)
+    void tambah() {
+//        Toast.makeText(getActivity(), "Tambah Data", Toast.LENGTH_SHORT).show();
+        getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.drawer_layout, new TambahBarangFragment()).commit();
+
+    }
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
 //        Buat variabel View
         vw = inflater.inflate(R.layout.fragment_barang, container, false);
+
+//        biding butterknife
+        ButterKnife.bind(this, vw);
 
 //        definisi variabek komponen
         img_tambah = vw.findViewById(R.id.img_tambah);
@@ -109,10 +122,6 @@ public class BarangFragment extends Fragment {
         tampil_pelanggan();
 
 //        baut event
-        img_tambah.setOnClickListener(view -> {
-
-        });
-
         rcv_data.setOnClickListener(view -> {
 
         });

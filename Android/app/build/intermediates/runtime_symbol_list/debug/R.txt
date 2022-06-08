@@ -1564,6 +1564,7 @@ int layout fragment_keranjang 0x7f0b0032
 int layout fragment_penjualan 0x7f0b0033
 int layout fragment_profile 0x7f0b0034
 int layout fragment_slideshow 0x7f0b0035
+int layout fragment_tambah_barang 0x7f0b004c
 int layout mtrl_layout_snackbar 0x7f0b0036
 int layout mtrl_layout_snackbar_include 0x7f0b0037
 int layout nav_header_main 0x7f0b0038
@@ -1647,6 +1648,7 @@ int string menu_keranjang 0x7f0f0033
 int string menu_logout 0x7f0f0034
 int string menu_penjualan 0x7f0f0035
 int string menu_profil 0x7f0f0036
+int string menu_tambah_barang 0x7f0f0046
 int string mtrl_chip_close_icon_content_description 0x7f0f0037
 int string nav_app_bar_navigate_up_description 0x7f0f0038
 int string nav_app_bar_open_drawer_description 0x7f0f0039

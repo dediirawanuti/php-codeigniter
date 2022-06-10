@@ -47,12 +47,12 @@ class Pelanggan extends Server {
 		$hasil = $this->mdl->set_delete($id);
 		// jika hasil = "1"
 		if($hasil == "1") {
-			$this->response(array("status" => "1", "Pesan" => "Data Berhasil dihapus !"),200);
+			$this->response(array("status" => "1", "pesan" => "Data Berhasil dihapus !"),200);
 			
 		}
 		// jika hasil != "1"
 		else {
-			$this->response(array("status" => "0", "Pesan" => "Data Gagal dihapus !"),200);
+			$this->response(array("status" => "0", "pesan" => "Data Gagal dihapus !"),200);
 
 		}
 		
@@ -75,12 +75,12 @@ class Pelanggan extends Server {
 
 		// jika hasil = "1"
 		if($hasil == "1") {
-			$this->response(array("status" => "1", "Pesan" => "Data Berhasil disimpan !"),200);
+			$this->response(array("status" => "1", "pesan" => "Data Berhasil disimpan !"),200);
 			
 		}
 		// jika hasil != "1"
 		else {
-			$this->response(array("status" => "0", "Pesan" => "Data Gagal disimpan !"),200);
+			$this->response(array("status" => "0", "pesan" => "Data Gagal disimpan !"),200);
 
 		}
 
@@ -104,12 +104,12 @@ class Pelanggan extends Server {
 
 		// jika hasil = "1"
 		if($hasil == "1") {
-			$this->response(array("status" => "1", "Pesan" => "Data Berhasil Diubah !"),200);
+			$this->response(array("status" => "1", "pesan" => "Data Berhasil Diubah !"),200);
 			
 		}
 		// jika hasil != "1"
 		else {
-			$this->response(array("status" => "0", "Pesan" => "Data Gagal Diubah !"),200);
+			$this->response(array("status" => "0", "pesan" => "Data Gagal Diubah !"),200);
 
 		}
 	}

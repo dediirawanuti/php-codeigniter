@@ -48,7 +48,7 @@ class Pelanggan extends CI_Controller {
 
 		// tampil alert
 		echo "<script>
-			alert('".$hapus->Pesan."')
+			alert('".$hapus->pesan."')
 		</script>";
 
 		// redirect halaman 
@@ -89,7 +89,7 @@ class Pelanggan extends CI_Controller {
 		$simpan = json_decode($this->client->simple_post(API_PELANGGAN, $data));
 
 		// tampilkan output
-		$hasil = "$simpan->Pesan&bull;$simpan->status";
+		$hasil = "$simpan->pesan&bull;$simpan->status";
 		echo $hasil;
 
 	}
@@ -129,6 +129,17 @@ class Pelanggan extends CI_Controller {
 		// panggil library "client (untuk baca "service_get" dari server)"
 		$this->load->library(array("client"));
 
+		// buat array untuk membaca data
+		$data = array(
+			"nama_plg" => $this->input->post("nama_plg"), "alamat_plg" => $this->input->post("alamat_plg"), "telepon_plg" => $this->input->post("telepon_plg"), "email_plg" => $this->input->post("email_plg"), "username_plg" => $this->input->post("username_plg"), "password_plg" => $this->input->post("password_plg"), "id_plg" => $this->input->post("id_plg")
+		);
+
+		// proses pengiriman data ke "service_post" pada server
+		$ubah = json_decode($this->client->simple_put(API_PELANGGAN, $data));
+
+		// tampilkan output
+		$hasil = "$ubah->pesan&bull;$ubah->status";
+		echo $hasil;
 
 	}
 }

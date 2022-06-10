@@ -334,9 +334,9 @@
                     
                     // proses penyimpanan data pelanggan dengan AJAX 
                     $.ajax({
-                        type: "PUT",
+                        type: "POST",
                         url: "<?php echo site_url("Pelanggan/ubah"); ?>",
-                        data: "nama_plg="+$("#txt_nama").val()+"&alamat_plg="+$("#txt_alamat").val()+"&telepon_plg="+$("#txt_telepon").val()+"&email_plg="+$("#txt_email").val()+"&username_plg="+$("#txt_username").val()+"&password_plg="+$("#txt_password").val()+"$id_plg="+id,
+                        data: "nama_plg="+$("#txt_nama").val()+"&alamat_plg="+$("#txt_alamat").val()+"&telepon_plg="+$("#txt_telepon").val()+"&email_plg="+$("#txt_email").val()+"&username_plg="+$("#txt_username").val()+"&password_plg="+$("#txt_password").val()+"&id_plg="+id,
 
                         success: function (response) {
 

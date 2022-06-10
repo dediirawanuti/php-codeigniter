@@ -1,6 +1,10 @@
 package com.uti.pumkm.ui.barang;
 
+import static com.uti.pumkm.ui.barang.BarangFragment.APIPelanggan;
+
+import android.app.ProgressDialog;
 import android.os.Bundle;
+import android.support.design.widget.TextInputEditText;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -8,12 +12,32 @@ import android.view.ViewGroup;
 
 import com.uti.pumkm.R;
 
+import butterknife.BindView;
+import butterknife.ButterKnife;
+import retrofit2.Call;
+import retrofit2.Retrofit;
+import retrofit2.converter.gson.GsonConverterFactory;
+
 /**
  * A simple {@link Fragment} subclass.
  * Use the {@link TambahBarangFragment#newInstance} factory method to
  * create an instance of this fragment.
  */
 public class TambahBarangFragment extends Fragment {
+
+//    deklarasi komponen
+    @BindView(R.id.edt_nama) TextInputEditText nama;
+    @BindView(R.id.edt_alamat) TextInputEditText alamat;
+    @BindView(R.id.edt_telepon) TextInputEditText telepon;
+    @BindView(R.id.edt_email) TextInputEditText email;
+    @BindView(R.id.edt_username) TextInputEditText username;
+    @BindView(R.id.edt_password) TextInputEditText password;
+
+//    deklarasi variabel
+    View  vw;
+
+//    deklarasi konstanta API
+    static final String APIPelanggan = "https://tisia.bppwlampung.com/Server/index.php/";
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -59,6 +83,41 @@ public class TambahBarangFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_tambah_barang, container, false);
+        vw = inflater.inflate(R.layout.fragment_tambah_barang, container, false);
+
+//        Butterknife
+        ButterKnife.bind(this, vw);
+
+//        Panggil Method Simpan_Pelanggan
+        simpan_palanggan();
+
+        return vw;
+    }
+
+//    Buat method void simpan_palanggan
+    void simpan_palanggan() {
+        //        deklarasi variable komponen "Progress Dialog"
+        ProgressDialog pd;
+//        setup progress dialog
+        pd = new ProgressDialog(getContext());
+//        progress dialog tidak dapat di cancel
+        pd.setCancelable(false);
+//        isi teks progress dialog
+        pd.setMessage("Mohon Tunggu ...");
+//        tampilkan progress dialog
+        pd.show();
+
+//        Menggunakan retrofit untuk pemanggilan data
+//        definisi Retrofit
+        Retrofit rf = new Retrofit.Builder().baseUrl(APIPelanggan).addConverterFactory(GsonConverterFactory.create()).build();
+
+//        Panggil interface barang
+        Barang br = rf.create(Barang.class);
+
+
+
+//        Panggil method "tampil" dari interface "Barang"
+        Call<ResponseBarang> cl = br.simpan(nama.getText().toString(), alamat.getText().toString(), telepon.getText().toString(), email.getText().toString(), username.getText().toString(), password.getText().toString());
+
     }
 }
